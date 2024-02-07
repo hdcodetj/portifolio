@@ -1,0 +1,17 @@
+* {
+    border: 1px solid red;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navegacao {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    text-transform: uppercase;    
+    background-color: aquamarine;
+}
+
