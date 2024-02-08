@@ -7,33 +7,51 @@
 
 .navegacao {
     display: flex;
-    justify-content: space-evenly;
-    padding: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 1.5rem;
-    text-transform: uppercase;    
-    background-color: aquamarine;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 15%;
+    background-color: beige;
+    padding: 2rem;
 }
 
 main {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 60px;
+    display: flex;    
+    align-items: center;
 }
 
 .info_me {
-    display: flex;
-    justify-content: center;
-    text-align: justify;
-    flex-direction: column;
-    gap: 26px;
+    padding: 2rem;
 }
 
-h1, p {
-    padding: 25px;
+.name {
+    text-align: center;    
+    padding: 2rem;
+}
+
+.par_infoMe {
+    text-align: justify;    
+    padding: 2rem;
 }
 
 img {
+    width: 300px;
+    height: 300px;
+    align-items: center;
+}
+
+.redeSociais {
     display: flex;
+    gap: 5rem;
+    padding: 1rem;
+    justify-content: center;
+}
+
+.linkRedes {
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.rodape {
+    text-align: center;    
+    padding: 1rem;
 }
